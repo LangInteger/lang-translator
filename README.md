@@ -1,8 +1,38 @@
-<h3 align="center">穆译 ( Smooth Translator )</h3>
+<h3 align="center">朗译 ( Lang Translator )</h3>
 
 <p align="center">让你沉浸在阅读中的划词翻译利器</p>
 <p align="center"><a href="https://chrome.google.com/webstore/detail/%E7%A9%86%E8%AF%91/mcfdomppancgaladcgflcgahbgcgbagb"><img src="https://camo.githubusercontent.com/334b4f665751356b1f4afb758f8ddde55b9c71b8/68747470733a2f2f7261772e6769746875622e636f6d2f476f6f676c654368726f6d652f6368726f6d652d6170702d73616d706c65732f6d61737465722f74727969746e6f77627574746f6e5f736d616c6c2e706e67" border="0" /></a></p>
 
+### 朗译
+
+- 传承经典（穆译），启迪未来
+
+### Building from source
+
+Install nvm for node version control:
+
+- for Windows, install [nvm-windows
+](https://github.com/coreybutler/nvm-windows)
+- for OS X & Linux, install [nvm](https://github.com/nvm-sh/nvm)
+
+```shell
+nvm install 10.0.0
+nvm use 10.0.0
+npm install -g gulp@3.9.0
+npm install --save-dev gulp@3.9.0
+gulp build
+```
+
+### BluePrint
+
+- [x] 添加单词发音 2022-03-24
+- [ ] 添加可变颜色背景
+
+### Appendix
+
+#### A ReadMe of 穆译
+
+```
 ### 穆译的信条
 
 > 不要让划词翻译干扰阅读状态
@@ -32,13 +62,4 @@
 穆译是一个开源应用，如果你想审查代码或者参与开发，请访问
 
 https://github.com/greatghoul/smooth-translator
-
-### Run the project
-
-```shell
-nvm install 10.0.0
-nvm use 10.0.0
-npm install -g gulp@3.9.0
-npm install --save-dev gulp@3.9.0
-gulp build
 ```
