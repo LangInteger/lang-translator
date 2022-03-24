@@ -32,3 +32,13 @@
 穆译是一个开源应用，如果你想审查代码或者参与开发，请访问
 
 https://github.com/greatghoul/smooth-translator
+
+### Run the project
+
+```shell
+nvm install 10.0.0
+nvm use 10.0.0
+npm install -g gulp@3.9.0
+npm install --save-dev gulp@3.9.0
+gulp build
+```
