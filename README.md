@@ -24,6 +24,8 @@ gulp build
 ### RoadMap
 
 - [x] 添加单词发音 2022-03-24
+- [ ] 支持阅读 PDF 文件时候取词
+- [ ] 升级 chrome extension manifest v2 为 v3
 - [ ] 添加可变颜色背景
 
 ### Appendix
